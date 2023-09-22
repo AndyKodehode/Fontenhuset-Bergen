@@ -25,7 +25,7 @@ export function CarouselHomeElement({img, text, CarouselKey, onPress}){
        
         
         
-        <View key={CarouselKey} style={styles.homeBox} >
+        <View key={CarouselKey} style={styles.homeBox} onPress={onPress} >
              <View style ={styles.homeImgShadow}>
               <Image style={styles.imageBox} source= {img}/>
              </View>

@@ -251,7 +251,7 @@ export const ModalData =[
        {
            id: 204,
            image: require('./assets/Frokost.jpg'),
-           text: 'Vi er her hvis du trenger oss'
+        //    text: 'Vi er her hvis du trenger oss'
         
         
         },
@@ -259,7 +259,7 @@ export const ModalData =[
         {
             id: 205,
             image: require('./assets/Benk.jpg'),
-            text: 'Her er du alltid velkommen'
+            // text: 'Her er du alltid velkommen'
          
          
          },
@@ -268,7 +268,7 @@ export const ModalData =[
             
             id: 206,
             image: require('./assets/BB.png'),
-            text: 'Du er god nok for oss'
+            // text: 'Du er god nok for oss'
 
         }, 
 
@@ -276,7 +276,7 @@ export const ModalData =[
             
             id: 207,
             image: require('./assets/JB.png'),
-            text: 'Vi liker deg'
+            // text: 'Vi liker deg'
         }
 
 ]

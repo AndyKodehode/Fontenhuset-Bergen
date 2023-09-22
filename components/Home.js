@@ -126,15 +126,18 @@ export default function Home(props){
       
             <View style={styles.topText}>
 
-                <Text style={styles.dagenIdag}
-                
-                onPress={() => setFunVisible(!modalVisible) }>Noe morsomt</Text>
-          
 
-                <Text style={styles.dagenIdag}
-                
-                onPress={() => setModalVisible(!modalVisible) }>Oppmuntring</Text>
-                <Text style={styles.dagenIdag} onPress={()=> navigation.push('Info')}>Hva skjer?</Text>
+                 <View  style={styles.dagenIdag} >
+                     <Text onPress={() => setFunVisible(!modalVisible) }>Noe morsomt</Text>
+                </View>
+          
+                 <View style={styles.dagenIdag} >
+                    <Text onPress={() => setModalVisible(!modalVisible)}>Bilder</Text>
+                </View>
+
+                <View style={styles.dagenIdag} >
+                    <Text onPress={()=> navigation.push('Info')} >Hva skjer?</Text>
+                </View>
             </View>
 
             <View style={styles.headerDiv}>
@@ -219,8 +222,8 @@ const styles = StyleSheet.create({
         height: 210
     },
     dagenIdag:{
-        width: '32%',
-        height: '10%',
+        // width: '32%',
+        // height: '10%',
         borderColor: 'black',
         borderRadius: 18,
         borderStyle: 'solid',
